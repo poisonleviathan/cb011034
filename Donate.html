@@ -158,7 +158,7 @@
     
                     <div class="inputBox">
                         <span>full name :</span>
-                        <input type="text" placeholder="john deo">
+                        <input type="text" placeholder="john deo" required>
                     </div>
                     <div class="inputBox">
                         <span>email :</span>
@@ -166,21 +166,21 @@
                     </div>
                     <div class="inputBox">
                         <span>address :</span>
-                        <input type="text" placeholder="street - lane">
+                        <input type="text" placeholder="street - lane" required>
                     </div>
                     <div class="inputBox">
                         <span>city :</span>
-                        <input type="text" placeholder="Kandy">
+                        <input type="text" placeholder="Kandy" required>
                     </div>
     
                     <div class="flex">
                         <div class="inputBox">
                             <span>state :</span>
-                            <input type="text" placeholder="Central">
+                            <input type="text" placeholder="Central" required>
                         </div>
                         <div class="inputBox">
                             <span>zip code :</span>
-                            <input type="text" placeholder="123 456">
+                            <input type="text" placeholder="123 456" required>
                         </div>
                     </div>
     
@@ -192,19 +192,19 @@
     
                     <div class="inputBox">
                         <span>cards accepted :</span>
-                        <img src="images/card_img.png" alt="">
+                        <img src="images/card_img.png" alt="" >
                     </div>
                     <div class="inputBox">
                         <span>name on card :</span>
-                        <input type="text" placeholder="mr. john deo">
+                        <input type="text" placeholder="mr. john deo" required>
                     </div>
                     <div class="inputBox">
                         <span>credit card number :</span>
-                        <input type="number" placeholder="+94 123 1234">
+                        <input type="number" placeholder="+94 123 1234" maxlength="12" required>
                     </div>
                     <div class="inputBox">
                         <span>exp month :</span>
-                        <input type="text" placeholder="january">
+                        <input type="text" placeholder="january"  required>
                     </div>
     
                     <div class="flex">
@@ -214,7 +214,7 @@
                         </div>
                         <div class="inputBox">
                             <span>CVV :</span>
-                            <input type="text" placeholder="1234">
+                            <input type="text" placeholder="1234" pattern="^[0-9]{3}$" required>
                         </div>
                     </div>
     
